@@ -84,7 +84,7 @@ body {
   color: var(--button-text-active);
 }
 /* Button */
-[type="button"] {
+.button{
 display: flex;
 flex-direction: row;
 align-items: flex-start;
@@ -116,12 +116,12 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
-[type="button"]:active {
+.button:active {
   color: var(--button-text-active);
   background: var(--button-main-text);
 }
-[type="button"]:hover,
-[type="button"]:focus {
+.button:hover,
+.button:focus {
   color: var(--button-text-active);
   background: var(--button-main-text);
 }
