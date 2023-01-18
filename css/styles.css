@@ -21,10 +21,35 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
+
+.container {
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  margin: 0 auto;
+}
 /* Nav-bar */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ .site-nav {
+  display: flex;
+  align-items: center;
+  margin: auto;
+}
+ 
+ .site-nav .item + .item{
+   margin-left: 40px;
+ }
 .logo-nav {
   color: var(--primary-text-color);
   text-decoration: none;
+  margin-right: 76px;
+  
 
   font-family: "Raleway", sans-serif;
   letter-spacing: 0.03em;
@@ -40,10 +65,12 @@ body {
 .logo-web {
   color: var(--accent-logo-color);
 }
-.list {
-  list-style: none;
-}
-.nav .link {
+
+.nav-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   color: var(--primary-text-color);
   text-decoration: none;
   font-weight: 500;
@@ -51,12 +78,12 @@ body {
   letter-spacing: 0.02em;
   
 }
-.nav-list .link:hover,
-.nav-list .link:focus {
-  color: var(--button-active-background);
-  text-decoration: none;
-}
-.contact {
+
+.contact-link {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+
   color: var(--secondary-text-color);
   text-decoration: none;
   font-style: normal;
@@ -64,18 +91,18 @@ body {
   letter-spacing: 0.02em;
   
 }
-.contact:hover,
-.contact:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-link-color);
   text-decoration: none;
 }
-.link:hover,
-.link:focus{
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-link-color);
-  text-decoration: none; 
+  text-decoration: none;
 }
-
 /* Filters */
+
 .buttons [type="button"] {
   color: var(--button-main-text);
   background: var(--button-background);
@@ -99,8 +126,11 @@ body {
   background: var(--button-active-background);
 }
 /* Main Section */
+
 .main a {
   text-decoration: none;
+  list-style: none;
+  margin: 0;
 }
 .section-title {
   color: var(--primary-text-color);
