@@ -26,8 +26,6 @@ body {
   width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-
-
   margin: 0 auto;
 }
 
@@ -213,7 +211,6 @@ h2 {
 }
 .work-container .image-list {
   display: flex;
-  outline: 2px solid red;
   padding: 0px;
   margin-top: 0;
   margin-bottom: 0px;
@@ -241,7 +238,6 @@ h2 {
   background: var(--button-background);
 }
 .team-container .team-list {
-  outline: 2px solid red;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
