@@ -41,6 +41,7 @@ body {
   display: flex;
   align-items: center;
   margin: auto;
+  border-bottom: 1px solid var(--button-border);
 }
  
  .site-nav .item + .item{
