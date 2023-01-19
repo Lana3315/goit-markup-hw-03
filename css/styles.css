@@ -150,13 +150,14 @@ ul {
 }
 
 .flex-item {
+  border: 1px solid var(--button-border);
   width: 360px;
   margin-right: 24px;
   margin-bottom: 48px;
-  border: 1px solid var(--button-border);
+  
   
 }
-
+ 
 
 .flex-item:nth-child(3n) {
   margin-right: 0px;
@@ -172,6 +173,7 @@ ul {
 }
 
 .section-title {
+  padding-left: 16px;
   margin-top:32px;
   margin-bottom: 8px;
   color: var(--primary-text-color);
@@ -182,6 +184,7 @@ ul {
   letter-spacing: 0.02em;
 }
 .section-text {
+  padding-left: 16px;
   margin-bottom: 16px;
   color: var(--secondary-text-color);
   line-height: 1.5;
