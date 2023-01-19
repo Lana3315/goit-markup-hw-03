@@ -115,10 +115,16 @@ ul {
   text-align: center;
   background-color: var(--secondary-text-color);
 }
+.hero-contest{
+ text-align: center; 
+}
 .hero-title {
-  text-align: center;
-  margin-top: 0px;
+  width: 496px;
+  text-align: center; 
+  margin-top: 188px;
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 56px;
   line-height: 1.07;
 
