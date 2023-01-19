@@ -46,6 +46,7 @@ ul {
 }
 
 .site-nav {
+
   display: flex;
   align-items: center;
   margin: auto;
