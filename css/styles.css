@@ -127,6 +127,7 @@ body {
 }
 /* Filters */
 .portfolio{
+  padding-top: 96px;
   padding-bottom: 0;
 }
 
@@ -170,16 +171,22 @@ ul {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .flex-container {
   display: flex;
   flex-wrap: wrap;
-}
 
+  
+}
+.button-item:nth-last-child { 
+  margin-right: 24px;
+}
 .flex-item {
   border: 1px solid var(--button-border);
   width: 360px;
-  margin-right: 24px;
+   margin-right: 24px;
   margin-bottom: 48px;
 }
 
@@ -195,11 +202,13 @@ img {
   list-style: none;
   margin: 0;
 }
-
-.section-title {
+.text{
   padding-left: 16px;
-  margin-top: 32px;
-  margin-bottom: 8px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+.section-title {
+   margin-bottom: 8px;
   color: var(--primary-text-color);
 
   font-weight: 500;
@@ -208,8 +217,6 @@ img {
   letter-spacing: 0.02em;
 }
 .section-text {
-  padding-left: 16px;
-  margin-bottom: 16px;
   color: var(--secondary-text-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
